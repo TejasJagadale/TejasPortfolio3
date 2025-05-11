@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Jagadale - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Loader Animation -->
+    <div class="loader bouncing-loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <!-- Mobile Toggle Button -->
+    <button class="mobile-toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo toggle-btn">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="logo-text">Tejas</div>
+            </div>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li class="menu-item">
+                <a href="#home" class="menu-link active" data-section="home">
+                    <span class="menu-icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span class="menu-text">Home</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#about" class="menu-link" data-section="about">
+                    <span class="menu-icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <span class="menu-text">About</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#projects" class="menu-link" data-section="projects">
+                    <span class="menu-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </span>
+                    <span class="menu-text">Projects</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#resume" class="menu-link" data-section="resume">
+                    <span class="menu-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    <span class="menu-text">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#contact" class="menu-link" data-section="contact">
+                    <span class="menu-icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="menu-text">Contact</span>
+                    <span class="tooltip">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="content-section active home-section1">
+            <div class="home-section">
+                <h1>Tejas Jagadale</h1>
+                <h2>Full Stack Web Developer</h2>
+                <div class="skills-highlight">
+                    <span><i class="fab fa-react"></i> React.js</span>
+                    <span><i class="fas fa-bolt"></i> Next.js</span>
+                    <span><i class="fab fa-node-js"></i> Node.js</span>
+                    <span><i class="fab fa-js-square"></i> JavaScript</span>
+                    <span><i class="fab fa-html5"></i> HTML</span>
+                    <span><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    <span><i class="fas fa-wind"></i> Tailwind CSS</span>
+                </div>
+                <p>Enthusiastic and dedicated Full Stack Web Developer with over 1.3 years of experience in designing
+                    and developing dynamic, responsive web applications. Passionate about frontend development and
+                    skilled in React.js, JavaScript, and UI/UX best practices.</p>
+            </div>
+            <div class="menu-link2">
+                <a href="#about" class="menu-link1" data-section="about">
+                    <i class="fas fa-user"></i> Know more About me
+                </a>
+                <a href="#contact" class="menu-link1" data-section="contact">
+                    <i class="fas fa-envelope"></i> Get in Touch
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="about-section">
+                <h2>About Me</h2>
+                <div class="introduction">
+                    <p>I'm a passionate full-stack developer with a strong foundation in web technologies and a keen eye
+                        for creating efficient, user-friendly applications. With a background in engineering and
+                        specialized training in full-stack development, I bring both technical expertise and creative
+                        problem-solving skills to every project.</p>
+                </div>
+
+                <div class="personal-info">
+                    <h3>Personal Information</h3>
+                    <p><strong>Phone:</strong> +91 9944600167</p>
+                    <p><strong>Email:</strong> tejasjagadale25@gmail.com</p>
+                    <p><strong>Date of Birth:</strong> 25-06-2000</p>
+                    <p><strong>Languages:</strong> English, Tamil, Marathi, Hindi</p>
+                </div>
+
+                <div class="education">
+                    <h3>Education</h3>
+                    <p><strong>Bachelor of Engineering (B.E)</strong></p>
+                    <p>Sona College of Technology / 08/2017 - 05/2021</p>
+                    <p>Specialization: Electronics & Communication Engineering</p>
+                    <p>Percentage: 74%</p>
+                </div>
+
+                <div class="course">
+                    <h3>Professional Training</h3>
+                    <p><strong>Full Stack Web Development Course</strong></p>
+                    <p>Edureka / 06/2023 - 09/2023</p>
+                    <p>Covered technologies including HTML5, CSS3, JavaScript, React, Node.js, Express, MongoDB</p>
+                    <p>Completed multiple projects including e-commerce applications and RESTful APIs</p>
+                </div>
+
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <li>JavaScript (ES6+)</li>
+                                <li>React.js</li>
+                                <li>Bootstrap</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Backend</h4>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>RESTful APIs</li>
+                                <li>Authentication (JWT, OAuth)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Database</h4>
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>MySQL</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Other</h4>
+                            <ul>
+                                <li>Git & GitHub</li>
+                                <li>Postman</li>
+                                <li>VS Code</li>
+                                <li>Agile Methodologies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="professional-traits">
+                    <h3>Professional Traits</h3>
+                    <ul>
+                        <li>Strong problem-solving abilities with analytical thinking</li>
+                        <li>Excellent communication and teamwork skills</li>
+                        <li>Quick learner with adaptability to new technologies</li>
+                        <li>Detail-oriented with focus on clean, maintainable code</li>
+                        <li>Passionate about continuous learning and professional growth</li>
+                    </ul>
+                </div>
+
+                <div class="interests">
+                    <h3>Interests</h3>
+                    <p>When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects,
+                        and staying updated with the latest web development trends. I also have a keen interest in UI/UX
+                        design principles and enjoy creating visually appealing interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <div class="projects-section">
+                <div class="section-header">
+                    <h2>My Projects</h2>
+                    <p class="section-subtitle">Explore my recent work and contributions</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Mpeoples Website</h3>
+                            <span class="project-date">04/2025 - 04/2025</span>
+                        </div>
+                        <p class="project-description">Custom web platform built with React.js showcasing services and
+                            user interaction.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>BootStrap</span>
+                            <span>CSS</span>
+                            <span>Framer Motion</span>
+                        </div>
+                        <a href="https://mpeoples.in/" class="project-link" target="_blank" rel="noopener noreferrer">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Aaditya Builders Website</h3>
+                            <span class="project-date">04/2025 - 05/2025</span>
+                        </div>
+                        <p class="project-description">Real estate portfolio site - a clean, professional site for
+                            Aaditya Builders featuring property listings and contact management.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="https://aadityabuilders.vercel.app/" class="project-link" target="_blank"
+                            rel="noopener noreferrer">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Portfolio Website</h3>
+                            <span class="project-date">04/2025 - 05/2025</span>
+                        </div>
+                        <p class="project-description">Personal portfolio highlighting projects and skills with
+                            responsive design and interactive elements.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>CSS3</span>
+                            <span>BootStrap</span>
+                        </div>
+                        <a href="https://drdhanaraj.netlify.app/" class="project-link" target="_blank"
+                            rel="noopener noreferrer">
+                            View Live <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Makkal Calendar Website</h3>
+                            <span class="project-date">04/2025 - 05/2025</span>
+                        </div>
+                        <p class="project-description">Cultural calendar app built with React.js, showcasing Tamil
+                            dates, events, and festival reminders with user customization.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>CSS</span>
+                            <span>BootStrap</span>
+                        </div>
+                        <a href="https://makkalcalendar.mpeoples.in/" class="project-link" target="_blank"
+                            rel="noopener noreferrer">
+                            Visit App <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Invoice Processing System</h3>
+                            <span class="project-date">05/2024 - 08/2024</span>
+                        </div>
+                        <p class="project-description">Backend project using Google Cloud Vision AI to extract data from
+                            client invoice PDFs and display them on the frontend for validation.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Google Cloud AI</span>
+                            <span>Flask</span>
+                        </div>
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                            See Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="content-section">
+            <div class="resume-section">
+                <h2>My Resume</h2>
+                <div class="experience">
+                    <h3>Experience</h3>
+
+                    <div class="job">
+                        <h4>Frontend Developer</h4>
+                        <p class="date">02/2025 - Present</p>
+                        <ul>
+                            <li>Developing and maintaining responsive web interfaces using React.js and Tailwind CSS.
+                            </li>
+                            <li>Collaborating with UI/UX designers to implement engaging user experiences.</li>
+                            <li>Writing reusable and maintainable code with a focus on performance.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h4>Full Stack Web Developer</h4>
+                        <p class="date">10/2023 - 12/2024</p>
+                        <ul>
+                            <li>Built and maintained full-stack web applications using React.js (frontend) and Node.js
+                                (backend).</li>
+                            <li>Worked on processing invoice PDFs using Google Cloud Vision AI and displaying structured
+                                data on the frontend.</li>
+                            <li>Developed reusable components, REST APIs, and integrated frontend with backend services.
+                            </li>
+                            <li>Ensured cross-browser compatibility and responsive design.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-list">
+                        <span>React.js</span>
+                        <span>Next.js</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Tailwind CSS</span>
+                        <span>Bootstrap</span>
+                        <span>Node.js</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Google Cloud Vision AI</span>
+                    </div>
+                </div>
+
+                <a href="Tejas_Resume.pdf" download class="download-btn">Download Resume</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="contact-section">
+                <h2>Let's Connect!</h2>
+                <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to
+                    be part of your vision. Feel free to reach out through any of these channels:</p>
+
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <div>
+                            <h3>Call Me</h3>
+                            <p>+91 9944600167</p>
+                            <p class="contact-note">Available Mon-Fri, 10AM-6PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <div>
+                            <h3>Email Me</h3>
+                            <p>tejasjagadale25@gmail.com</p>
+                            <p class="contact-note">I typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-connect">
+                    <h3>Find Me Online</h3>
+                    <p>Follow my work and connect with me on professional networks:</p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/tejas-jagadale43/" target="_blank"
+                            class="social-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a href="https://github.com/TejasJagadale" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+
+                        <a href="#" target="_blank" class="social-btn twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+
+                        <a href="#" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="collaboration-cta">
+                    <h3>Let's Build Something Amazing</h3>
+                    <p>Whether you have a question, project proposal, or just want to say hello, I'd love to hear from
+                        you. Don't hesitate to reach out!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Start tracking load time
+        const pageLoadStartTime = Date.now();
+        const minimumLoadTime = 1500; // 4 seconds in milliseconds
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Loader functionality
+            const loader = document.querySelector('.loader');
+            const body = document.body;
+
+            // Set dark mode for loader if needed
+            if (localStorage.getItem('theme') === 'dark') {
+                loader.classList.add('dark-mode');
+            }
+
+            // Function to hide loader
+            function hideLoader() {
+                const currentTime = Date.now();
+                const elapsedTime = currentTime - pageLoadStartTime;
+                const remainingTime = Math.max(0, minimumLoadTime - elapsedTime);
+
+                setTimeout(function () {
+                    loader.classList.add('hidden');
+                    body.classList.add('loaded');
+
+                    // Remove loader from DOM after animation completes
+                    setTimeout(function () {
+                        loader.remove();
+                    }, 500);
+                }, remainingTime);
+            }
+
+            // Hide loader when everything is loaded or after minimum time
+            window.addEventListener('load', hideLoader);
+
+            // Fallback in case load event doesn't fire
+            setTimeout(hideLoader, minimumLoadTime);
+
+            // Rest of your existing JavaScript
+            const sidebar = document.querySelector('.sidebar');
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const mobileToggleBtn = document.querySelector('.mobile-toggle-btn');
+            const themeToggleBtn = document.querySelector('.theme-toggle');
+            const menuLinks = document.querySelectorAll('.menu-link, .menu-link1');
+            const contentSections = document.querySelectorAll('.content-section');
+
+            // Check for saved theme preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+
+            // Toggle sidebar on desktop
+            toggleBtn.addEventListener('click', function () {
+                sidebar.classList.toggle('collapsed');
+            });
+
+            // Toggle sidebar on mobile
+            mobileToggleBtn.addEventListener('click', function () {
+                sidebar.classList.toggle('open');
+
+                // Change icon based on state
+                const icon = this.querySelector('i');
+                if (sidebar.classList.contains('open')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            // Toggle dark/light theme
+            themeToggleBtn.addEventListener('click', function () {
+                document.body.classList.toggle('dark-mode');
+
+                // Change icon and save preference
+                const icon = this.querySelector('i');
+                if (document.body.classList.contains('dark-mode')) {
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+
+            // Close mobile menu when clicking a link
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Update active menu item
+                    menuLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Show corresponding section
+                    const sectionId = this.getAttribute('data-section');
+                    contentSections.forEach(section => {
+                        section.classList.remove('active');
+                        if (section.id === sectionId) {
+                            section.classList.add('active');
+                        }
+                    });
+
+                    // Close mobile menu if open
+                    if (window.innerWidth <= 768) {
+                        sidebar.classList.remove('open');
+                        mobileToggleBtn.querySelector('i').classList.remove('fa-times');
+                        mobileToggleBtn.querySelector('i').classList.add('fa-bars');
+                    }
+
+                    // Scroll to top of the section
+                    window.scrollTo(0, 0);
+                });
+            });
+
+            // Auto-close sidebar on mobile by default
+            if (window.innerWidth <= 768) {
+                sidebar.classList.remove('open');
+            }
+
+            window.addEventListener('resize', function () {
+                if (window.innerWidth <= 768) {
+                    // Mobile view
+                    sidebar.classList.remove('collapsed');
+                } else {
+                    // Desktop view
+                    sidebar.classList.remove('open');
+                    mobileToggleBtn.querySelector('i').classList.remove('fa-times');
+                    mobileToggleBtn.querySelector('i').classList.add('fa-bars');
+                }
+            });
+
+            // Handle form submission
+            const contactForm = document.querySelector('.contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    alert('Thank you for your message! I will get back to you soon.');
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
